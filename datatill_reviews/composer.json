@@ -1,0 +1,8 @@
+{
+    "name": "root/datatill_reviews",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "nesbot/carbon": "^1.22"
+    }
+}
