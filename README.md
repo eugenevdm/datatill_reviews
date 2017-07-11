@@ -1,4 +1,4 @@
-# DataTill Reviews
+# DataTill Reviews WordPress Widget
 
 ## Description
 
