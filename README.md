@@ -2,7 +2,7 @@
 
 ## Description
 
-A WordPress widget that allows you to publish customer ratings on your website
+A WordPress widget that allows you to publish customer ratings to your website
 
 ## Installation
 
@@ -24,3 +24,14 @@ Go to Settings / DataTill Reviews
 
 For support, email eugene@herotel.com or call +27 82 309-6710.
 
+## Troubleshooting
+
+Most WordPress installations are on different hosts than DataTill installations.
+
+Run this command on the DataTill server to allow remote access from the WordPress instance:
+
+Go to terminal
+
+mysql -uroot -p
+
+`grant all privileges on datatill.* to 'user'@'wordpress_host_ip' identified by 'password' with grant option;`
