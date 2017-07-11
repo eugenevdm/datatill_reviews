@@ -6,13 +6,13 @@ A WordPress widget that allows you to publish customer ratings on your website
 
 ## Installation
 
-Copy all files into /wp-content/plugins/
+Copy all files into `wordpress_installation/wp-content/plugins/`
 
 When you're done you'll have
 
-/wp-content/plugins/datatill_reviews
+`wordpress_installation/wp-content/plugins/datatill_reviews`
 
-Run composer install from the above folder to install Carbon
+Run `composer install` from the above folder to install Carbon
 
 ## Configuration
 
