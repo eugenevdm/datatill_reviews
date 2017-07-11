@@ -32,6 +32,6 @@ Run this command on the DataTill server to allow remote access from the WordPres
 
 Go to terminal
 
-mysql -uroot -p
+`mysql -uroot -p`
 
 `grant all privileges on datatill.* to 'user'@'wordpress_host_ip' identified by 'password' with grant option;`
