@@ -116,7 +116,7 @@ if ( ! class_exists( 'Datatill_Reviews_Settings' ) ) {
 		}
 
 		public function settings_section_datatill_reviews() {
-			echo 'Complete the database connection information to use the widget.';
+			echo 'Complete the database connection information and set preferences to use the widget.';
 		}
 
 		public function plugin_settings_page() {
